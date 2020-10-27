@@ -11,5 +11,6 @@ SELECT 'LESS THAN 20 MIL SALES' AS 'Section';
 SELECT name FROM albums WHERE sales < 20;
 SELECT 'ROCK GENRES' AS 'Section';
 SELECT name FROM albums WHERE genre = 'Rock';
+SELECT * FROM albums\G
 
 
